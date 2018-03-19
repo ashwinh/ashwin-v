@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int main(void) 
 {
 int n,k,i,result=1;
@@ -8,5 +9,5 @@ for(i=1;i<=k;i++)
 result=result*n;	
 }
 printf("%d",result);
-return 0;
+getch();
 }
