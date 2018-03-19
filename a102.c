@@ -1,4 +1,5 @@
 #include <stdio.h>
+#inculde<conio.h>
 int main(void) 
 {
 int num,i;
@@ -12,5 +13,5 @@ printf("%d\n",num1);
 num=rem;
 break;
 }
-return 0;
+getch();
 }
