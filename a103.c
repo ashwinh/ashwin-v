@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int main(void) 
 {
 char str[50];
@@ -13,5 +14,5 @@ if(str[i]==' ')
 str[i+1]=toupper(str[i+1]);
 }
 printf("\n%s",str);
-return 0;
+getch();
 }
