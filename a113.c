@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<conio.h>
 int main(void) 
 {
 int i,n,k,array[50],count=0;
@@ -15,5 +16,5 @@ count=count+1;
 }
 }
 printf("\n%d",count);
-return 0;
+getch();
 }
